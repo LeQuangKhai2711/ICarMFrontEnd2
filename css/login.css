@@ -1,0 +1,91 @@
+body {}
+
+.box-login {
+  text-align: center;
+  width: 100%;
+  padding: 100px 0;
+  height: 100vh;
+}
+
+.form-login {
+  margin-top: 70px;
+}
+
+.row-input {
+  margin: 20px;
+}
+
+
+.row-input i {
+  font-size: 27px;
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+
+.row-input input[class=inp] {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid #000;
+  width: 400px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #38475e;
+}
+
+.inp:focus {
+  outline: none;
+}
+
+.inp::placeholder {
+  color: #a6a6a6;
+}
+
+.login-btn {
+  margin-top: 25px;
+  padding: 15px 25px;
+  background-image: linear-gradient(#576680d9, #38475e);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-link {
+  color: #38475e;
+}
+
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.form-username,
+.verifire {
+  text-align: left;
+}
+
+.edit-user-name {
+  text-align: left;
+}
+
+.verifire {
+  position: relative;
+}
+
+.verifire span {
+  position: absolute;
+  right: 74px;
+}
+
+.send-code-btn {
+  margin-left: 15px;
+  background: #a1b8fff5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 13px;
+}

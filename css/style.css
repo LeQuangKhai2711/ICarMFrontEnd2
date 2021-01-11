@@ -1,0 +1,15 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hamberger {
+  padding: 0;
+}
+
+.hamberger-item {
+  width: 30px;
+  height: 4px;
+  background-color: #333;
+  margin: 6px 0;
+  border-radius: 5px;
+}
